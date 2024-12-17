@@ -1,0 +1,13 @@
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteBase /
+
+RewriteRule ^login/?$ login.php
+RewriteRule ^registration/?$ registration.php
+RewriteRule ^genre/?$ genre.php
+
+RewriteRule ^admin/?$ admin/index.php
+RewriteRule ^admin/logout?$ admin/logout.php
+RewriteRule ^admin/addbook?$ admin/addbook.php
+RewriteRule ^admin/addgenre?$ admin/addgenre.php
